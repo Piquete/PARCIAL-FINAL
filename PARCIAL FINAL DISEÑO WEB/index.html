@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>PARCIAL FINAL</title>
+</head>
+<body>
+    <header class="header" >
+        <!-- H izq -->
+        <nav class="menu-izq" >
+            <a class="home-conta" href="#section-home">
+                <svg class="home__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z"/></svg>
+            </a>
+            <nav class="nav" >
+                <a class="container--button" href="#section-aboutme">
+                    <svg class="aboutme__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-440q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41ZM120-120v-720h720v720H120Zm80-80h560v-46q-54-53-125.5-83.5T480-360q-83 0-154.5 30.5T200-246v46Z"/></svg>
+                    sobre mí
+                </a>
+                <a class="container--button" href="#section-prices">
+                    <svg class="prices__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M480-520q150 0 255-47t105-113q0-66-105-113t-255-47q-150 0-255 47T120-680q0 66 105 113t255 47Zm0 100q41 0 102.5-8.5T701-456q57-19 98-49.5t41-74.5v100q0 44-41 74.5T701-356q-57 19-118.5 27.5T480-320q-41 0-102.5-8.5T259-356q-57-19-98-49.5T120-480v-100q0 44 41 74.5t98 49.5q57 19 118.5 27.5T480-420Zm0 200q41 0 102.5-8.5T701-256q57-19 98-49.5t41-74.5v100q0 44-41 74.5T701-156q-57 19-118.5 27.5T480-120q-41 0-102.5-8.5T259-156q-57-19-98-49.5T120-280v-100q0 44 41 74.5t98 49.5q57 19 118.5 27.5T480-220Z"/></svg>
+                    Precios
+                </a>
+                <a class="container--button" href="#section-proyect">
+                    <svg class="proyect__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M80-160v-640h320l80 80h400v560H80Zm160-160h320v-80H240v80Zm0-160h480v-80H240v80Z"/></svg>
+                    Proyectos
+                </a>
+            </nav>
+        </nav>
+        <!-- H der -->
+        <nav class="menu-der" >
+            <div class="container-mode">
+                <span>Idioma</span>
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+                </label>
+            </div>
+            <div class="container-mode" id="container-mode-mode">
+                <span>Modo oscuro</span>
+                <label class="switch">
+                <input type="checkbox" id="toggle-theme" >
+                <span class="slider"></span>
+                </label>
+            </div>
+            <a class="container-mode" id="container-mode-menu" href="#">
+                <svg class="menu__icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            </a>
+        </nav>
+    </header>
+    <main class="main" >
+        <!-- home -->
+        <section id="section-home" class="home">
+            <div class="container--home" >
+                <div class="home-tittle" >
+                    <div class="home__rectangle" ></div>
+                    <h1 class="home__text" >Creando soluciones visuales únicas  que comunican ideas de manera  clara, efectiva y creativa.</h1>
+                </div>
+                <button class="contact--button" >
+                    <p class="contact__text" >CONTACTAME!</p>
+                </button>
+            </div>
+        </section>
+        <!-- aboutme -->
+        <section id="section-aboutme" class="aboutme">
+            <div class="aboutme--top" >
+                <div class="top--container" >
+                    <h2 class="top__tittle" >SOBRE MI</h2>
+                    <p class="top__paragraph" >Soy Jorge Jashet Vanegas Soto, soi diseñador gráfico, tengo una edad de 20 años. Me especializo en logotipos, branding, diseño web y material publicitario, creando soluciones visuales efectivas y atractivas. Mi enfoque combina creatividad y funcionalidad, adaptándome a las necesidades del cliente para transmitir su mensaje de manera clara y única.</p>
+                </div>
+                <img class="me-image" src="./resources/imagenyo.jpg" alt="">
+                <!-- imagen -->
+            </div>
+            <div class="aboutme--down" >
+                <div class="card-aboutme" >
+                    <div class="card-about-me" >
+                        <h3 class="aboutme__tittle" >Experiencia laboral</h3>
+                        <p class="aboutme__paragraph" >Ahora mismo no tengo trabajo estoi enfocado en estudiar  y terminar mi carrera de diseñador gráfico para seguir adquiriendo experiencia, aunque e realizado algunos trabajos informales y eh trabajado con una empresa de marketing y manejo de redes sociales perteneciente a un primo llamado A&B Social Media.</p>
+                    </div>
+                </div>
+                <div class="card-aboutme" >
+                    <div class="card-about-me" >
+                        <h3 class="aboutme__tittle" >Aptitudes</h3>
+                        <p class="aboutme__paragraph" >Soy diseñador gráfico especializado en branding, diseño web, UX/UI, y modelado 3D. Manejo herramientas como Adobe Creative Suite y WordPress. Destaco por mi creatividad, capacidad para trabajar en equipo y adaptarme a las necesidades del cliente.</p>
+                    </div>
+                </div>
+                <div class="card-aboutme" >
+                    <div class="card-about-me" >
+                        <h3 class="aboutme__tittle" >Perfil Profecional</h3>
+                        <p class="aboutme__paragraph" >Soy diseñador gráfico especializado en branding, diseño web y UX/UI. Mi enfoque combina creatividad y funcionalidad para ofrecer soluciones visuales claras y efectivas. Mi objetivo es trabajar con grandes empresas, especialmente en el sector deportivo, y crear mi propio negocio de publicidad.</p>
+                    </div>
+                </div>
+                <div class="card-aboutme" >
+                    <div class="card-about-me" >
+                        <h3 class="aboutme__tittle" >Hobbies</h3>
+                        <p class="aboutme__paragraph" >Fútbol: Me apasiona el fútbol, que influye en mi enfoque y disciplina en el diseño. Tocar Samples: Me gusta crear sonidos, lo que conecta mi creatividad musical con el diseño. Escuchar Música: La música inspira y genera ideas para mis proyectos. Dibujar: El dibujo me ayuda a explorar conceptos antes de digitalizarlos.</p>
+                    </div>
+                </div>
+                <div class="card-aboutme" >
+                    <div class="card-about-me" >
+                        <h3 class="aboutme__tittle" >Proceso de diseño</h3>
+                        <p class="aboutme__paragraph" >Mi proceso de diseño gráfico incluye investigar las necesidades del cliente, generar ideas y bocetos, crear el diseño final, ajustarlo según feedback y entregar los archivos listos para su uso. Me apasionan el fútbol, la música y el dibujo, lo que influye en mi creatividad y enfoque en el diseño.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- prices -->
+        <section id="section-prices" class="prices">
+            <h2 class="prices__tittle-section" >PRECIOS</h2>
+            <span class="container--price-section" >
+                <span class="container--price--card" >
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Diseño de Logotipo/Branding:</h3>
+                            <p class="price__text" >Básico (Diseño de Logotipo Simple)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" > $100 - $150</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Diseño de Logotipo/Branding:</h3>
+                            <p class="price__text" >Avanzado (Identidad Visual Completa)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$200 - $400</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Diseño Web:</h3>
+                            <p class="price__text" >Sitio Web Básico (Landing Page, Página Personal)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$250 - $500</p>
+                        </div>
+                    </div>
+                </span>
+                <span class="container--price--card" >
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Diseño Web:</h3>
+                            <p class="price__text" >Sitio Web Interactivo (Diseño UX/UI para Páginas más Complejas)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" > $500 - $1000</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Material Publicitario (Flyers, Posters, Banners, etc.):</h3>
+                            <p class="price__text" >Diseño de Material Promocional</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$50 - $150 por pieza</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Material Publicitario (Flyers, Posters, Banners, etc.):</h3>
+                            <p class="price__text" >Campañas Publicitarias Complejas</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$200 - $500</p>
+                        </div>
+                    </div>
+                </span>
+                <span class="container--price--card" >
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" >Modelado</h3>
+                            <p class="price__text" >Modelado Básico 3D (Para Branding o Proyectos Publicitarios)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$150 - $300</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" > Consultoría y Asesoría en Diseño Gráfico:</h3>
+                            <p class="price__text" >Consultoría por Hora</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$30 - $50 por hora</p>
+                        </div>
+                    </div>
+                    <div class="price-card" >
+                        <article class="price-info" >
+                            <h3 class="price__tittle" > Consultoría y Asesoría en Diseño Gráfico:</h3>
+                            <p class="price__text" >Asesoría de Marca (Estrategia de Identidad Visual)</p>
+                        </article>
+                        <div class="price-button" >
+                            <p class="price__number" >$100 - $250</p>
+                        </div>
+                    </div>
+                </span>
+            </span>
+        </section>
+        <!-- proyect -->
+        <section id="section-proyect" class="proyect">
+            <div class="proyect--container" >
+                <div class="proyect--container-content" >
+                    <article class="container--text-proyect" >
+                        <h2 class="tittle__proyect" >PROYECTOS</h2>
+                        <p class="paragraph__proyect" >Hasta ahora he trabajado en la creación de logotipos y rediseño de páginas en redes sociales para diversas empresas. También quiero resaltar proyectos realizados en la universidad, como revistas, periódicos y flyers, todos diseñados con el objetivo de transmitir un mensaje claro y conciso, logrado a través de un proceso de diseño cuidadoso.</p>
+                    </article>
+                </div>
+                <span class="proyect-section-cards" >
+                    <div class="proyect--card" >
+                        <h3 class="proyectcard__tittle" >Porpuesta Gráfica Antropología</h3>
+                        <p class="proyectcard__content" >La propuesta gráfica de Jorge Jashet explora cómo los jóvenes de la barra brava Frente Rojiblanco Sur (FRBS) del club Junior de Barranquilla construyen su identidad y sentido de pertenencia a través del concepto de "familia".</p>
+                        <a class="proyect-button" href="">
+                            <h3 class="cardbutton__text" >Más Info</h3>
+                        </a>
+                    </div>
+                    <div class="proyect--card" >
+                        <h3 class="proyectcard__tittle" >Cortometraje A -203</h3>
+                        <p class="proyectcard__content" >En este cortometraje, desarrollado junto a mi equipo de compañeros de diseño gráfico, buscamos representar, a través de la semiótica, el proceso de cómo una persona puede ir perdiendo poco a poco la cordura hasta llegar a un punto en el que se vuelve casi irreconocible.</p>
+                        <a class="proyect-button" href="">
+                            <h3 class="cardbutton__text" >Más Info</h3>
+                        </a>
+                    </div>
+                    <div class="proyect--card" >
+                        <h3 class="proyectcard__tittle" >Revista KingSport</h3>
+                        <p class="proyectcard__content" >KingsSports se dedica a ofrecer la información más relevante y actualizada sobre el fútbol, cubriendo eventos importantes y las historias más fascinantes del deporte. </p>
+                        <a class="proyect-button" href="">
+                            <h3 class="cardbutton__text" >Más Info</h3>
+                        </a>
+                    </div>
+                    <div class="proyect--card" >
+                        <h3 class="proyectcard__tittle" >Pop Up de gato negro</h3>
+                        <p class="proyectcard__content" >En este proyecto, trabajé junto a mi compañero para crear un diseño según las indicaciones de un "supuesto cliente", adaptándonos a sus requerimientos y expectativas en cada etapa del proceso.</p>
+                        <a class="proyect-button" href="">
+                            <h3 class="cardbutton__text" >Más Info</h3>
+                        </a>
+                    </div>
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" >
+        <span class="media" >
+            <a class="github" href="https://github.com/Piquete">
+                <img class="icon" src="./resources/github.png" alt="icono de github">
+            </a>
+            <a class="outlook" href="https://outlook.office365.com/mail/">
+                <img class="icon" src="./resources/outlook.png" alt="icono de outlook">
+            </a>
+            <a class="instagram" href="https://www.instagram.com/la_grasaaaaa/">
+                <img class="icon" src="./resources/instagram.png" alt="icono de instagram">
+            </a>
+            <a class="facebook" href="https://www.facebook.com/profile.php?id=100070316690042">
+                <img class="icon" src="./resources/facebook.png" alt="icono de facebook">
+            </a>
+            <a class="whatsapp" href="https://web.whatsapp.com/">
+                <img class="icon" src="./resources/Whatsapp.png" alt="icono de whatsapp">
+            </a>
+            <a class="behance" href="https://www.behance.net/jorgefrbs">
+                <img class="icon" src="./resources/behance.png" alt="icono de behance">
+            </a>
+        </span>
+        <button class="contact--button" href="" >
+            <p class="contact__text" >CONTACTAME!</p>
+        </button>
+    </footer>
+</body>
+</html>
